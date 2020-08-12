@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.container-navbar {
+  max-width: 1400px;
+}
+
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg') no-repeat center;
   background-size: cover;
@@ -11,3 +15,10 @@
   height: calc(100vh - 56px);
   max-height: 700px;
 }
+
+.card__btn:hover {
+  background-color: white;
+  color: #007bff;
+}
+
+.navbar-toggler-icon {}
